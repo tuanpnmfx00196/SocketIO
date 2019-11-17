@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ACT planning room</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div id="wraper">
+
+      <div id="loginForm">
+        <h3>Welcome to ACT, register please</h3>
+        <input type="text" id="txtUsername"/>
+        <input type="button" value = "Register" id = "btnRegister"/>
+      </div>
+
+      <div id="chatForm">
+        <div id="left">
+          <div id="titleBox">User Online</div>
+        <div id="contentBox">
+          <div class="userOnline">Person 1</div>
+          <div class="userOnline">Person 2</div>
+          <div class="userOnline">Person 3</div>
+          <div class="userOnline">Person 4</div>
+          <div class="userOnline">Person 5</div>
+          <div class="userOnline">Person 6</div>
+        </div>
+      </div>
+        <div id="right">
+          <div id="sayHi">
+          Hello <span id="currentUser">Tuan</span>
+           <input type="button" value = "Logout" id="logOut"/>
+         </div>
+         <div id="listMessage">
+         </div>
+         <input type="text" id="txtMessage"/>
+         <input type="button" id="btnSendMessage" value="Send"/>
+         </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  background-color:#F3F781;
+}
+#loginForm{
+  padding: 5px;
+}
+#left{
+  width: 30%;
+  float: left;
+}
+#titleBox{
+  border: solid 1px black;
+  text-align: center;
+  font-weight: bold;
+}
+#contentBox{
+  border: solid 1px black;
+  text-align: center;
+}
+
+#right{
+  width: 70%;
+  float: right;
+}
+
+#sayHi{
+  text-align: right;
+  border: solid 1px black;
+}
+#listMessage{
+  height: 300px;
+  border: solid 1px black;
+}
